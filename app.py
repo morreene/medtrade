@@ -136,7 +136,7 @@ app.layout = html.Div([
             html.Div(
                 id="header",
                 children=[
-                    html.H2(children="Trade in Medical Goods", style={'color': 'black', 'font-weight': 'bold'}),
+                    html.H2(children="Trade in Medical Goods in the Context of Tackling COVID-19", style={'color': 'black', 'font-weight': 'bold'}),
                     html.P(
                         id="description",
                         children=dcc.Markdown(
