@@ -13,7 +13,7 @@ eu_members = ['Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Cyprus', 'Czech Repu
               'Poland', 'Portugal', 'Romania', 'Slovak Republic', 'Slovenia', 'Spain', 'Sweden',
               # 'United Kingdom'
               ]
-data = pd.read_csv('med_trade_test20210325.csv')
+data = pd.read_csv('med_trade_20210325.csv')
 # data = data[data['type']=='tariff']
 # print(data.shape)
 # migration_years = [2019]
