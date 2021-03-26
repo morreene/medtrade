@@ -125,8 +125,6 @@ app.index_string = """<!DOCTYPE html>
 
 
 
-
-
 server = app.server
 
 app.layout = html.Div([
@@ -144,8 +142,8 @@ app.layout = html.Div([
                         children=dcc.Markdown(
                           children=(
                             '''
-                            This site provides graphical representations of tariffs and trade data used in the information notes on [Trade in Medical Goods in the Context of Tackling COVID-19](https://www.wto.org/english/news_e/news20_e/rese_03apr20_e.pdf)
-                            and [the treatment of medical products in regional trade agreements (RTAs)](https://www.wto.org/english/tratop_e/covid19_e/medical_products_report_e.pdf).
+                            This site provides graphical representations of tariffs and trade data used in the information notes on [1) Trade in Medical Goods in the Context of Tackling COVID-19](https://www.wto.org/english/news_e/news20_e/rese_03apr20_e.pdf),
+                            [2) its update with Developments in the First Half of 2020](https://www.wto.org/english/tratop_e/covid19_e/medical_goods_update_e.pdf) and [3) Treatment of Medical Products in Regional Trade Agreements (RTAs)](https://www.wto.org/english/tratop_e/covid19_e/medical_products_report_e.pdf).
                             The study is an overview of the trade of medical goods ([the list of products](https://www.wto.org/english/tratop_e/covid19_e/medical_good_annexes_e.xlsx)),
                             including bound, MFN applied and preferential tariffs on these products.
                             It should be noted that this study focuses solely on the final form of these products and does not extend to the different intermediate products that are used by global value chains in their production.
